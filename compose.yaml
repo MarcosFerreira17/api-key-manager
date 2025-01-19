@@ -1,0 +1,12 @@
+﻿services:
+  havel:
+    image: havel
+    build:
+      context: .
+      dockerfile: Havel/Dockerfile
+
+  havel.api:
+    image: havel.api
+    build:
+      context: .
+      dockerfile: Presentantion/Havel.Api/Dockerfile
