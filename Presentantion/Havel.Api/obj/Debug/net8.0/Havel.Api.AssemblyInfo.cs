@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Havel.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cc37954ef20da3850c1bdecfb4da1d13deb0e7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Havel.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Havel.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
