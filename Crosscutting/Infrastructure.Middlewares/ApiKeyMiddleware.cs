@@ -1,6 +1,6 @@
 namespace Infrastructure.MIddlewares;
 
-public class ApiKeyMIddleware
+public class ApiKeyMiddleware
 {
-    
+
 }

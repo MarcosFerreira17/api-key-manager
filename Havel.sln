@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AA3EE4CD-E646-44FA-9E71-40DAC390A091}"
 	ProjectSection(SolutionItems) = preProject
@@ -16,6 +16,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Havel.Api", "Presentantion\Havel.Api\Havel.Api.csproj", "{E42C363D-F428-4E88-BD7D-55ED90FC753B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Crosscutting", "Crosscutting", "{9674C2E5-4F2E-40E5-A739-37E1CE325D05}"
+	ProjectSection(SolutionItems) = preProject
+		Crosscutting\Infrastructure.Packages\Infrastructure.Packages.csproj = Crosscutting\Infrastructure.Packages\Infrastructure.Packages.csproj
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Database", "Crosscutting\Infrastructure.Database\Infrastructure.Database.csproj", "{0F0FC647-20C3-4067-9B23-B718B914172E}"
 EndProject
@@ -23,7 +26,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F4AB0864
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "Tests\UnitTests\UnitTests.csproj", "{BE39EE56-9A0B-4DCC-A021-5E30FBB3C5A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.MIddlewares", "Crosscutting\Infrastructure.MIddlewares\Infrastructure.MIddlewares.csproj", "{02C77B08-82D6-4129-98F0-FA0B0CC61BA6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Middlewares", "Crosscutting\Infrastructure.Middlewares\Infrastructure.Middlewares.csproj", "{02C77B08-82D6-4129-98F0-FA0B0CC61BA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,7 +5,7 @@ using Infrastructure.Database.Repositories.Interfaces;
 
 namespace Application.Services;
 
-public class ApiUserService : IApiUserService 
+public class ApiUserService : IApiUserService
 {
     private readonly IApiUserRepository _apiUserRepository;
 
@@ -13,18 +13,24 @@ public class ApiUserService : IApiUserService
     {
         _apiUserRepository = apiUserRepository ?? throw new ArgumentNullException(nameof(apiUserRepository));
     }
-    
-    public async Task<Guid> CreateAsync(CreateUserRequest request)
+
+    public Task<Guid> CreateAsync(CreateUserRequest request)
     {
-        string apiKey = Guid.NewGuid().ToString();
-        
-        ApiUser entity = new(request.Username, request.Email, apiKey);
-        
-        await _apiUserRepository.CreateAsync(entity);
-
-        _apiUserRepository.SaveAsync();
-
-        return entity.Id;
+        throw new NotImplementedException();
     }
 
+    public Task<string> IsValidApiKey(string apiKey)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task RevokeAsync(string apiKey)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task RotateAsync(string apiKey)
+    {
+        throw new NotImplementedException();
+    }
 }

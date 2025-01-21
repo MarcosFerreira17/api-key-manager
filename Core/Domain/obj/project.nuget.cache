@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+6lsbNE6JPo9xQXpe6pfQOSoXo71M/04qYjP+DKzGTUXG8yOsZzc/EK5S3n0ruTCFpG8tplvWCOvdXKLYAqKDA==",
+  "dgSpecHash": "TJMGat+NWnL2Q0bXgyi7EmqtQGsX1A6/WamwDOp7jGrso1xHSpxxzRVyl/1GBdoF6sATQke331Cih/srt4eAWA==",
   "success": true,
   "projectFilePath": "/home/marcosferreira/repos/Havel/Core/Domain/Domain.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Could not load file or assembly 'System.IO.Compression, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. The system cannot find the file specified.\n"
-    }
-  ]
+  "logs": []
 }

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>1.0.0</Version>
+        <Authors>MarcosFerreira</Authors>
+        <PackageId>ApiKeyValidation</PackageId>
+        <Description>API Key validation with scope management</Description>
+    </PropertyGroup>
+
+</Project>
